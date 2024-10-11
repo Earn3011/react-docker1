@@ -23,8 +23,8 @@ jobs:
 
     # ขั้นตอนที่สาม: Build Docker image
     - name: Build Docker image
-      run: docker build -t myearn3011/react-docker-test1:0.2 .
+      run: docker build -t myearn3011/react-docker-test1:0.3 .
 
     # ขั้นตอนที่สี่: Push Docker image ไปที่ Docker Hub
     - name: Push Docker image to Docker Hub
-      run: docker push myearn3011/react-docker-test1:0.2
+      run: docker push myearn3011/react-docker-test1:0.3
